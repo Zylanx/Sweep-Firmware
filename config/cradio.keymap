@@ -66,13 +66,13 @@
             bindings = <
                 &kp ESC   &kp AT    &kp HASH  &kp DLLR  &kp PRCNT       &kp CARET &kp AMPS  &kp STAR &kp SEMI &kp DEL
                 &kp TAB   &kp EQUAL &kp MINUS &trans    &kp SQT         &kp BSLH  &kp LPRN  &kp RPRN &kp PIPE &kp RET
-                &kp TILDE &trans    &trans    &trans    &kp DQT         &kp LBKT  &kp LBRC  &kp RBRC &kp RBKT &to FOURTH
+                &kp TILDE &sk LCTRL    &trans    &trans    &kp DQT         &kp LBKT  &kp LBRC  &kp RBRC &kp RBKT &to FOURTH
                                               &to FIRST &sk LSHFT       &sk RALT  &to THIRD
             >;
         };
         
         third_layer {
-            bindings = <
+            bindings = <  // Add the cursor keys to this layer as well
                 &trans &trans &trans &trans    &trans          &kp MINUS &kp N7    &kp N8 &kp N9 &trans
                 &trans &trans &trans &trans    &trans          &kp EQUAL &kp N4    &kp N5 &kp N6 &kp RET
                 &to BT &trans &trans &trans    &trans          &kp N0    &kp N1    &kp N2 &kp N3 &trans
