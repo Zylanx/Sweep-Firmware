@@ -84,7 +84,7 @@
             bindings = <
                 &trans    &trans           &mmv MOVE_UP      &mwh SCROLL_UP   &trans          &trans    &trans     &kp UP   &kp PG_UP &trans
                 &trans    &mmv MOVE_LEFT   &mmv MOVE_DOWN    &mmv MOVE_RIGHT  &trans          &trans    &kp LEFT   &kp DOWN &kp RIGHT &kp RET
-                &mkp RCLK &mwh SCROLL_LEFT &mwh SCROLL_RIGHT &mwh SCROLL_DOWN &trans          &mkp LCLK &kp HOME   &kp END  &kp PG_DN &trans
+                &mkp RCLK &mwh SCROLL_LEFT &mwh SCROLL_RIGHT &mwh SCROLL_DOWN &trans          &mkp LCLK &kp HOME   &kp END  &kp PG_DN &to SECOND
                                                              &to FIRST        &trans          &sk RALT  &to SECOND
             >;
         };
