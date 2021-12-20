@@ -73,10 +73,10 @@
         
         third_layer {
             bindings = <  // Add the cursor keys to this layer as well
-                &trans &trans &trans &trans    &trans          &kp MINUS &kp N7    &kp N8 &kp N9 &trans
-                &trans &trans &trans &trans    &trans          &kp EQUAL &kp N4    &kp N5 &kp N6 &kp RET
-                &to BT &trans &trans &trans    &trans          &kp N0    &kp N1    &kp N2 &kp N3 &trans
-                                     &to FIRST &trans          &sk RALT  &to SECOND
+                &kp ESC &kp HOME &kp UP   &kp END   &kp PG_UP       &kp MINUS &kp N7    &kp N8 &kp N9 &trans
+                &trans  &kp LEFT &kp DOWN &kp RIGHT &kp PG_DN       &kp EQUAL &kp N4    &kp N5 &kp N6 &kp RET
+                &to BT  &trans   &trans   &trans    &trans          &kp N0    &kp N1    &kp N2 &kp N3 &trans
+                                          &to FIRST &trans          &sk RALT  &to SECOND
             >;
         };  
     
