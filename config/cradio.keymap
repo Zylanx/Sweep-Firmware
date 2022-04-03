@@ -76,8 +76,8 @@
         second_layer {
             bindings = <
                 &kp ESC   &kp AT    &kp HASH  &kp DLLR  &kp PRCNT       &kp CARET &kp AMPS  &kp STAR &kp SEMI &kp DEL
-                &kp TAB   &kp EQUAL &kp MINUS &trans    &kp SQT         &kp BSLH  &kp LPRN  &kp RPRN &kp PIPE &kp RET
-                &kp TILDE &sk LCTRL &trans    &trans    &kp DQT         &kp LBKT  &kp LBRC  &kp RBRC &kp RBKT &to FOURTH
+                &kp TAB   &kp EQUAL &kp MINUS &trans    &kp SQT         &kp BSLH  &kp LPRN  &kp RPRN &kp PIPE &to FOURTH
+                &kp TILDE &sk LCTRL &trans    &trans    &kp DQT         &kp LBKT  &kp LBRC  &kp RBRC &kp RBKT &kp RET
                                               &to FIRST &skq LSHFT      &sk RALT  &to THIRD
             >;
         };
@@ -85,8 +85,8 @@
         third_layer {
             bindings = <  // Add the cursor keys to this layer as well
                 &kp ESC &kp HOME &kp UP   &kp END   &kp PG_UP       &kp MINUS &kp N7    &kp N8 &kp N9 &trans
-                &trans  &kp LEFT &kp DOWN &kp RIGHT &kp PG_DN       &kp EQUAL &kp N4    &kp N5 &kp N6 &kp RET
-                &to BT  &trans   &trans   &trans    &trans          &kp N0    &kp N1    &kp N2 &kp N3 &kp DOT
+                &trans  &kp LEFT &kp DOWN &kp RIGHT &kp PG_DN       &kp EQUAL &kp N4    &kp N5 &kp N6 &kp DOT
+                &to BT  &trans   &trans   &trans    &trans          &kp N0    &kp N1    &kp N2 &kp N3 &kp RET
                                           &to FIRST &trans          &sk RALT  &to SECOND
             >;
         };  
@@ -94,8 +94,8 @@
         fourth_layer {
             bindings = <
                 &trans    &trans           &mmv MOVE_UP      &mwh SCROLL_UP   &trans          &trans    &trans     &kp UP   &kp PG_UP &trans
-                &trans    &mmv MOVE_LEFT   &mmv MOVE_DOWN    &mmv MOVE_RIGHT  &trans          &trans    &kp LEFT   &kp DOWN &kp RIGHT &kp RET
-                &mkp RCLK &mwh SCROLL_LEFT &mwh SCROLL_RIGHT &mwh SCROLL_DOWN &trans          &mkp LCLK &kp HOME   &kp END  &kp PG_DN &to SECOND
+                &trans    &mmv MOVE_LEFT   &mmv MOVE_DOWN    &mmv MOVE_RIGHT  &trans          &trans    &kp LEFT   &kp DOWN &kp RIGHT &to SECOND
+                &mkp RCLK &mwh SCROLL_LEFT &mwh SCROLL_RIGHT &mwh SCROLL_DOWN &trans          &mkp LCLK &kp HOME   &kp END  &kp PG_DN &kp RET
                                                              &to FIRST        &trans          &sk RALT  &to SECOND
             >;
         };
