@@ -34,7 +34,7 @@
 			label = "STICKY_KEY_QUICK_RELEASE";
 			#binding-cells = <1>;
 			bindings = <&kp>;
-			release-after-ms = <1000>;
+			release-after-ms = <2000>;
 			quick-release;
 		};
 		
@@ -58,6 +58,8 @@
             bindings = <&kp>, <&kp>;
         };
     };
+	
+	// TODO: normalise space and switching as well as return keys
 
     keymap {
         compatible = "zmk,keymap";
@@ -67,7 +69,7 @@
                 &kp Q &kp W      &kp E      &kp R       &kp T          &kp Y    &kp U       &kp I          &kp O        &kp P
                 &kp A &hm LGUI S &hm LALT D &hm LCTRL F &kp G          &kp H    &hm RCTRL J &hm RALT K     &hm RGUI L   &td SEMI QUOT
                 &kp Z &kp X      &kp C      &kp V       &kp B          &kp N    &kp M       &td SLASH CMMA &td EXCL DOT &kp RET
-                                            &skq LSHFT  &kp SPC        &kp BKSP &to SECOND
+                                            &sk SPC     &skq LSHIFT        &kp BKSP &to SECOND
             >;
         };
 
@@ -84,7 +86,7 @@
             bindings = <  // Add the cursor keys to this layer as well
                 &kp ESC &kp HOME &kp UP   &kp END   &kp PG_UP       &kp MINUS &kp N7    &kp N8 &kp N9 &trans
                 &trans  &kp LEFT &kp DOWN &kp RIGHT &kp PG_DN       &kp EQUAL &kp N4    &kp N5 &kp N6 &kp RET
-                &to BT  &trans   &trans   &trans    &trans          &kp N0    &kp N1    &kp N2 &kp N3 &trans
+                &to BT  &trans   &trans   &trans    &trans          &kp N0    &kp N1    &kp N2 &kp N3 &kp DOT
                                           &to FIRST &trans          &sk RALT  &to SECOND
             >;
         };  
