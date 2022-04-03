@@ -69,7 +69,7 @@
                 &kp Q &kp W      &kp E      &kp R       &kp T          &kp Y    &kp U       &kp I          &kp O        &kp P
                 &kp A &hm LGUI S &hm LALT D &hm LCTRL F &kp G          &kp H    &hm RCTRL J &hm RALT K     &hm RGUI L   &td SEMI QUOT
                 &kp Z &kp X      &kp C      &kp V       &kp B          &kp N    &kp M       &td SLASH CMMA &td EXCL DOT &kp RET
-                                            &sk SPC     &skq LSHIFT        &kp BKSP &to SECOND
+                                            &kp SPC     &skq LSHIFT    &kp BKSP &to SECOND
             >;
         };
 
