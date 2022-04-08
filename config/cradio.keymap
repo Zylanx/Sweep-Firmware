@@ -77,7 +77,7 @@
             bindings = <
                 &kp ESC   &kp AT    &kp HASH  &kp DLLR  &kp PRCNT       &kp CARET &kp AMPS  &kp STAR &kp SEMI &kp DEL
                 &kp TAB   &kp EQUAL &kp MINUS &trans    &kp SQT         &kp BSLH  &kp LPRN  &kp RPRN &kp PIPE &to FOURTH
-                &kp TILDE &sk LCTRL &trans    &trans    &kp DQT         &kp LBKT  &kp LBRC  &kp RBRC &kp RBKT &kp RET
+                &kp GRAVE &sk LCTRL &trans    &trans    &kp DQT         &kp LBKT  &kp LBRC  &kp RBRC &kp RBKT &kp RET
                                               &to FIRST &skq LSHFT      &kp RALT  &to THIRD
             >;
         };
